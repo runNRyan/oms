@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace OrderbookLib.Models
+{
+    /// <summary>
+    /// class for single trade
+    /// </summary>
+    public class Trade
+    {
+        public DateTime ExecuteTime { get; set; }
+        public string Side { get; set; } = string.Empty;
+        public TickerList Ticker { get; set; }
+        public int Price { get; set; }
+        public int Quantity {  get; set; }
+
+    }
+}
