@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderbookServer", "OrderbookServer\OrderbookServer.csproj", "{C094109F-B920-43DB-BD15-A0C8E34C89AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderbookServer", "OrderbookServer\OrderbookServer.csproj", "{C094109F-B920-43DB-BD15-A0C8E34C89AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderbookLib", "..\OrderbookLib\OrderbookLib\OrderbookLib.csproj", "{AA39EAEA-DC0D-456D-952B-821E67A9E3CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C094109F-B920-43DB-BD15-A0C8E34C89AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C094109F-B920-43DB-BD15-A0C8E34C89AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C094109F-B920-43DB-BD15-A0C8E34C89AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA39EAEA-DC0D-456D-952B-821E67A9E3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA39EAEA-DC0D-456D-952B-821E67A9E3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA39EAEA-DC0D-456D-952B-821E67A9E3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA39EAEA-DC0D-456D-952B-821E67A9E3CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

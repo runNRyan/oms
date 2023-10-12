@@ -1,0 +1,11 @@
+C:\Users\USER\source\repos\SimpleOMS-TCP\OrderbookLib\OrderbookLib\bin\Debug\net7.0\OrderbookLib.deps.json
+C:\Users\USER\source\repos\SimpleOMS-TCP\OrderbookLib\OrderbookLib\bin\Debug\net7.0\OrderbookLib.dll
+C:\Users\USER\source\repos\SimpleOMS-TCP\OrderbookLib\OrderbookLib\bin\Debug\net7.0\OrderbookLib.pdb
+C:\Users\USER\source\repos\SimpleOMS-TCP\OrderbookLib\OrderbookLib\obj\Debug\net7.0\OrderbookLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\SimpleOMS-TCP\OrderbookLib\OrderbookLib\obj\Debug\net7.0\OrderbookLib.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\SimpleOMS-TCP\OrderbookLib\OrderbookLib\obj\Debug\net7.0\OrderbookLib.AssemblyInfo.cs
+C:\Users\USER\source\repos\SimpleOMS-TCP\OrderbookLib\OrderbookLib\obj\Debug\net7.0\OrderbookLib.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\SimpleOMS-TCP\OrderbookLib\OrderbookLib\obj\Debug\net7.0\OrderbookLib.dll
+C:\Users\USER\source\repos\SimpleOMS-TCP\OrderbookLib\OrderbookLib\obj\Debug\net7.0\refint\OrderbookLib.dll
+C:\Users\USER\source\repos\SimpleOMS-TCP\OrderbookLib\OrderbookLib\obj\Debug\net7.0\OrderbookLib.pdb
+C:\Users\USER\source\repos\SimpleOMS-TCP\OrderbookLib\OrderbookLib\obj\Debug\net7.0\ref\OrderbookLib.dll
