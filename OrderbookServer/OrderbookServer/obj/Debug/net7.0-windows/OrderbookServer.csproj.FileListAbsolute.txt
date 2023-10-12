@@ -1,0 +1,16 @@
+C:\Users\USER\source\repos\OrderbookServer\OrderbookServer\bin\Debug\net7.0-windows\OrderbookServer.exe
+C:\Users\USER\source\repos\OrderbookServer\OrderbookServer\bin\Debug\net7.0-windows\OrderbookServer.deps.json
+C:\Users\USER\source\repos\OrderbookServer\OrderbookServer\bin\Debug\net7.0-windows\OrderbookServer.runtimeconfig.json
+C:\Users\USER\source\repos\OrderbookServer\OrderbookServer\bin\Debug\net7.0-windows\OrderbookServer.dll
+C:\Users\USER\source\repos\OrderbookServer\OrderbookServer\bin\Debug\net7.0-windows\OrderbookServer.pdb
+C:\Users\USER\source\repos\OrderbookServer\OrderbookServer\obj\Debug\net7.0-windows\OrderbookServer.Form1.resources
+C:\Users\USER\source\repos\OrderbookServer\OrderbookServer\obj\Debug\net7.0-windows\OrderbookServer.csproj.GenerateResource.cache
+C:\Users\USER\source\repos\OrderbookServer\OrderbookServer\obj\Debug\net7.0-windows\OrderbookServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\OrderbookServer\OrderbookServer\obj\Debug\net7.0-windows\OrderbookServer.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\OrderbookServer\OrderbookServer\obj\Debug\net7.0-windows\OrderbookServer.AssemblyInfo.cs
+C:\Users\USER\source\repos\OrderbookServer\OrderbookServer\obj\Debug\net7.0-windows\OrderbookServer.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\OrderbookServer\OrderbookServer\obj\Debug\net7.0-windows\OrderbookServer.dll
+C:\Users\USER\source\repos\OrderbookServer\OrderbookServer\obj\Debug\net7.0-windows\refint\OrderbookServer.dll
+C:\Users\USER\source\repos\OrderbookServer\OrderbookServer\obj\Debug\net7.0-windows\OrderbookServer.pdb
+C:\Users\USER\source\repos\OrderbookServer\OrderbookServer\obj\Debug\net7.0-windows\OrderbookServer.genruntimeconfig.cache
+C:\Users\USER\source\repos\OrderbookServer\OrderbookServer\obj\Debug\net7.0-windows\ref\OrderbookServer.dll

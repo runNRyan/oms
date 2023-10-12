@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5NVox05l63pNSeXsObqtinTGkRaa/XJuEkGZZE5m2k1/Jg+DcN8ZhYVp9jaiYFQvHuuq84dDV2zAIdM6LaFU/A==",
+  "dgSpecHash": "6y6l/qjJwL8486UO6CphQDUDoVkq4nE5lAojM3J24/qmRrJfKAKD3GN2LRRuHEYUao5NOVJn2bDb9N66h+L9rg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\source\\repos\\OrderbookLib\\OrderbookLib\\OrderbookLib.csproj",
+  "projectFilePath": "C:\\Users\\USER\\source\\repos\\SimpleOMS-TCP\\OrderbookLib\\OrderbookLib\\OrderbookLib.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
