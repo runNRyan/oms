@@ -143,9 +143,10 @@
             // lBLog
             // 
             lBLog.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            lBLog.Enabled = false;
             lBLog.FormattingEnabled = true;
             lBLog.ItemHeight = 15;
-            lBLog.Location = new Point(259, 95);
+            lBLog.Location = new Point(259, 98);
             lBLog.Name = "lBLog";
             lBLog.Size = new Size(316, 484);
             lBLog.TabIndex = 11;
