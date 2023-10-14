@@ -19,7 +19,7 @@ namespace OrderbookLib.Models
 
         public override string ToString()
         {
-            return $"UserId: {UserId} subscribed";
+            return $"UserId: {UserId}";
         }
     }
 }

@@ -39,8 +39,9 @@ namespace OrderbookServer
         {
             string message = hub.State switch
             {
-                TcpState.Connect => $"¢Ý Connected ¢Ý {hub} ¢Ý",
-                TcpState.Disconnect => $"¢Ý Connection terminated ¢Ý {hub} ¢Ý",
+                TcpState.Connect => $"¢Ý {hub} ¢Ý Connected ¢Ý",
+                TcpState.Disconnect => $"¢Ý {hub} ¢Ý Connection terminated  ¢Ý",
+                TcpState.Subscribe => $"¢Ý {hub} ¢Ý Subscribe Ticker {hub.Ticker} ¢Ý",
                 _ => $"{hub}: Types {hub.Types}, State {hub.State}"
             };
             lBLog.Items.Add(message);

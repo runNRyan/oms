@@ -11,6 +11,6 @@ namespace OrderbookLib.Models
     /// </summary>
     public enum TcpState
     {
-        None, Initial, Connect, Disconnect
+        None, Initial, Connect, Disconnect, Subscribe
     }
 }

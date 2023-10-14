@@ -26,9 +26,22 @@ namespace OrderbookClient
             MappingCBandDGV();
         }
 
+        // after select combobox
         private void cBTicker_selectionEvent(object sender, EventArgs e)
         {
             MappingCBandDGV();
+            
+            if (cBTicker.Text == "None") return;
+
+
+            TickerList _ticker = (TickerList)Enum.Parse(typeof(TickerList), cBTicker.Text);
+
+            DTOHub hub = new DTOHub
+            {
+                State = TcpState.Subscribe,
+                Ticker = _ticker
+            };
+            Form1._clientHandler.Send(hub);
 
 
         }
