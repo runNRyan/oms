@@ -11,6 +11,6 @@ namespace OrderbookLib.Models
     /// </summary>
     public enum DTOType
     {
-        None, Orderbook, HistoricalTrades
+        None, Orderbook, HistoricalTrades, SingleOrder, Ping
     }
 }

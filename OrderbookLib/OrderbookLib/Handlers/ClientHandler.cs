@@ -56,10 +56,6 @@ namespace OrderbookLib.Handlers
                         Debug.Print("클라이언트 연결 이벤트 발생");
                         Connected?.Invoke(this, new CmEventArgs(this, hub));
                     }
-                    if (hub.Types == DTOType.None)
-                    {
-                        Debug.Print("클라이언트 무효 데이터 수신");
-                    }
                     else
                     {
                         Debug.Print("클라이언트 데이터 수신 이벤트 발생");

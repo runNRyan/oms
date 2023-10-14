@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OrderbookLib.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,6 +10,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace OrderbookClient
 {
@@ -27,14 +29,22 @@ namespace OrderbookClient
         private void cBTicker_selectionEvent(object sender, EventArgs e)
         {
             MappingCBandDGV();
+
+
         }
 
+        // mapping datagridview's datasource
         private void MappingCBandDGV()
         {
             try
             {
                 if (Form1.OrderbookDS is not null)
                     dGVOrderbook.DataSource = Form1.OrderbookDS.Tables[cBTicker.Text];
+                if (cBTicker.Text == "None")
+                    groupBox1.Enabled = false;
+                else
+                    groupBox1.Enabled = true;
+
             }
             catch (Exception ex)
             {
@@ -42,5 +52,75 @@ namespace OrderbookClient
             }
         }
 
+        private void textBox_onlynum(object sender, KeyPressEventArgs e)
+        {
+            //숫자와 백스페이스만 입력
+            if (!(char.IsDigit(e.KeyChar) || e.KeyChar == Convert.ToChar(Keys.Back)))
+            {
+                e.Handled = true;
+            }
+
+        }
+
+        //  buy order
+        private void btnBuyOrder_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var order = new SingleOrder
+                {
+                    _price = int.Parse(tBPrice.Text),
+                    _quantity = int.Parse(tBQuantity.Text)
+                };
+
+                TickerList _ticker = (TickerList)Enum.Parse(typeof(TickerList), cBTicker.Text);
+
+                DTOHub hub = new DTOHub
+                {
+                    Types = DTOType.SingleOrder,
+                    Ticker = _ticker,
+                    ManualOrder = order
+                };
+
+                Form1._clientHandler.Send(hub);
+
+
+            }
+            catch (Exception ex )
+            {
+                Debug.WriteLine(ex.Message);
+            }
+            
+        }
+
+        //  sell order 
+        private void btnSellOrder_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var order = new SingleOrder
+                {
+                    _price = int.Parse(tBPrice.Text),
+                    _quantity = -1 * int.Parse(tBQuantity.Text)
+                };
+
+                TickerList _ticker = (TickerList)Enum.Parse(typeof(TickerList), cBTicker.Text);
+
+                DTOHub hub = new DTOHub
+                {
+                    Types = DTOType.SingleOrder,
+                    Ticker = _ticker,
+                    ManualOrder = order
+                };
+
+                Form1._clientHandler.Send(hub);
+
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+            }
+
+        }
     }
 }

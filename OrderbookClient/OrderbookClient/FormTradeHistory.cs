@@ -1,5 +1,4 @@
-﻿using OrderbookLib.backup;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -51,5 +50,9 @@ namespace OrderbookClient
             }
         }
 
+        private void DealwDataErr(object sender, DataGridViewDataErrorEventArgs e)
+        {
+            dGVTradeHistory.Columns[0].SortMode = DataGridViewColumnSortMode.Automatic;
+        }
     }
 }

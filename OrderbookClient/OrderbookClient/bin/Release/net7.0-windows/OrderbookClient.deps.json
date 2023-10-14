@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "OrderbookClient/1.0.0": {
+        "dependencies": {
+          "OrderbookLib": "1.0.0"
+        },
+        "runtime": {
+          "OrderbookClient.dll": {}
+        }
+      },
+      "OrderbookLib/1.0.0": {
+        "runtime": {
+          "OrderbookLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OrderbookClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OrderbookLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

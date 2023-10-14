@@ -45,6 +45,7 @@
             dGVTradeHistory.RowTemplate.Height = 25;
             dGVTradeHistory.Size = new Size(384, 601);
             dGVTradeHistory.TabIndex = 0;
+            dGVTradeHistory.DataError += DealwDataErr;
             // 
             // FormTradeHistory
             // 
