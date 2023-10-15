@@ -188,6 +188,7 @@ namespace OrderbookServer.Models
             }
             if (matching_quantity > 0)
             {
+                CurrentPrice = last_price;
 
                 for (int i = 0; i < matching_price.Count-1; i++)
                 {

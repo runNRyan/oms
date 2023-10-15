@@ -50,9 +50,5 @@ namespace OrderbookClient
             }
         }
 
-        private void DealwDataErr(object sender, DataGridViewDataErrorEventArgs e)
-        {
-            dGVTradeHistory.Columns[0].SortMode = DataGridViewColumnSortMode.Automatic;
-        }
     }
 }

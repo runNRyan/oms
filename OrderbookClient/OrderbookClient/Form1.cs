@@ -64,7 +64,8 @@ namespace OrderbookClient
                 Debug.WriteLine(message);
             }
 
-            Task.Factory.StartNew(() => ProcessDTOHub(hub));
+            //Task.Factory.StartNew(() => ProcessDTOHub(hub));
+            ProcessDTOHub(hub);
 
         }
 
